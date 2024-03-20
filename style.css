@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 40vh;
+  list-style: none;
+  gap: 50px;
+}
+
+.menu li {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background: #0000008e;
+}
+
+.menu  a {
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#presentation{
+    background-image: url(./img/2017-ford-gt-supercar-first-ride-review-car-and-driver-photo-679402-s-original\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#presentation > div {
+    height: 100vh;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    background: linear-gradient(0deg, rgb(41, 40, 40),rgba(56, 55, 55, 0.103));
+    
+}
+
+#presentation h1{
+    font-size: 50px;
+
+}
+
+#presentation p{
+   font-size: 30px;
+}
+#presentation article{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+
+#detail{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/Aston-Martin-Vulcan-car-supercars-sunset-clouds-race-tracks-1749235-wallhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}   
+#detail > div {
+    background: linear-gradient(180deg, rgb(41, 40, 40),rgba(56, 55, 55, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: start;
+    font-size: 30px;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#detail article {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#video {
+    height: 200vh; 
+    width: 100%;
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    justify-content: center;  
+    flex-direction: column; 
+    gap: 40px;  
+    align-items: center;              
+}
+#detail article {
+    font-size: 50px ;
+    gap: 10px;
+    padding: 25px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#detail small {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+#footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    justify-content: center;  
+    flex-direction: row; 
+    gap: 40px;  
+    align-items: center;       
+}
+#detail pre {
+    font-size: 50px ;
+    gap: 10px;
+    padding: 25px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
